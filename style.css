@@ -8,6 +8,9 @@ h1{
   font-family: "Snell Roundhand";
   font-weight: bold;
 }
+h6{
+  color:#b4b4b4;
+}
 
 .titleHeading{
   margin:5%;
@@ -22,6 +25,10 @@ section{
 
 .navigation{
   margin:4%;
+}
+.nav-item{
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 img{
@@ -50,10 +57,10 @@ img{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 
-  color: grey;
-  font-size: 35px;
-  padding: 12px 100px;
-  border: 2px solid grey;
+  color: #b4b4b4;
+  font-size: 28px;
+  padding: 9px 90px;
+  border: 2px solid #b4b4b4;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -65,7 +72,7 @@ img{
 /* Container needed to position the button. Adjust the width as needed */
 
 .bottom{
-  width: 60%;
+  width: 65%;
   margin-top:6%;
   margin-bottom:6%;
 }
@@ -135,6 +142,7 @@ img{
 .btw{
   width:70%;
 }
+
 footer{
   text-align: center;
   padding-top:12px;
