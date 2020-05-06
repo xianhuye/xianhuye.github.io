@@ -177,3 +177,12 @@ footer{
   font-size: 16pt;
   font-weight:normal;
 }
+
+#homeP{
+  display:block;
+
+}
+#interP{
+  display:none;
+
+}
