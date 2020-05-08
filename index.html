@@ -25,12 +25,12 @@
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link text-secondary" href="#">
-            <h6 onclick="homeBt()">Home</h6>
+            <h6 id="homeText" onclick="homeBt()">Home</h6>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-secondary" href="#">
-            <h6 onclick="interBt()">Interior Design</h6>
+            <h6 id="interText" onclick="interBt()">Interior Design</h6>
           </a>
         </li>
         <li class="nav-item">
@@ -53,7 +53,7 @@
     <div id="homeP">
       <div class="top">
         <img src="topBackground.jpg" alt="top background" />
-        <button type="button" class="btn btn-lg btn-outline-secondary bt">RESUME</button>
+        <button type="button" class="btn btn-lg btn-outline-secondary bt" onclick="resumeBt()">RESUME</button>
       </div>
       <div class="bottom">
         <table id="t01">
@@ -125,6 +125,13 @@
         </table>
         <div class="blackBar" style="background-color: white; height:150px">
         </div>
+      </div>
+    </div>
+    <div id="resumeP">
+      <div class="blackBar">
+      </div>
+      <div class="resumeC">
+        <a onclick="homeBt()">> Resume </a> <img src="Resume.jpg" />
       </div>
     </div>
   </section>
