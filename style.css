@@ -11,9 +11,6 @@ h1{
 h6{
   color:#b4b4b4;
 }
-#homeText{
-  color:black;
-}
 
 .titleHeading{
   margin:5%;
@@ -185,10 +182,7 @@ footer{
   display:block;
 
 }
-#interP{
-  display:none;
 
-}
 #resumeP{
   display: none;
 }
