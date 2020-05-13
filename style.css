@@ -192,3 +192,38 @@ footer{
   margin-right:15%;
   margin-bottom:15%;
 }
+
+#tinyHouse{
+  display: none;
+  margin-left:50px;
+  margin-right:50px;
+}
+.interImg{
+  margin-top: 10px;
+  margin-bottom:10px;
+  border:1px solid grey;
+}
+.imgNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.sImg{
+  margin-left:10px;
+  margin-top:10px;
+}
+#codesLab{
+  display: none;
+  margin-left:50px;
+  margin-right:50px;
+}
+#aNh{
+  display: none;
+  margin-left:50px;
+  margin-right:50px;
+}
+#new{
+  display: none;
+  margin-left:50px;
+  margin-right:50px;
+}

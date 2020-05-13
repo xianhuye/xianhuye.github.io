@@ -53,16 +53,16 @@
     <div id="interP" style="margin-left:0; margin-right:0; display:block;">
       <div class="blackBar">
       </div>
-      <div class="interiorContent">
+      <div id="interiorMenu" class="interiorContent">
         <table id="t02">
           <tr>
             <th class="comp">
               <img src="1_ID440TinyHouse.jpg" />
-              <button type="button" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px;"><b class="intB">ID 440 Tiny House</b></button>
+              <button type="button" onclick="tinyBt()" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px;"><b class="intB">ID 440 Tiny House</b></button>
             </th>
             <th class="comp">
               <img src="2_ID345CodeLab.jpg" />
-              <button type="button" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px;"><b class="intB">ID 345 Code Lab</b></button>
+              <button type="button" onclick="codeBt()" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px;"><b class="intB">ID 345 Code Lab</b></button>
             </th>
             <th class="comp" style="vertical-align: bottom;font-weight:normal;">
               <i class="fas fa-caret-left"></i><br />
@@ -75,12 +75,12 @@
             </th>
             <th class="comp">
               <img src="3_ID242ApartmentandHouse.jpg" />
-              <button type="button" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px; top: 25%;"><b class="intB">ID 242 Apartment</b></button>
-              <button type="button" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px; top: 75%"><b class="intB">ID 242 House</b></button>
+              <button type="button" onclick="aNhBt()" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px; top: 25%;"><b class="intB">ID 242 Apartment</b></button>
+              <button type="button" onclick="aNhBt()" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px; top: 75%"><b class="intB">ID 242 House</b></button>
             </th>
             <th class="comp">
               <img src="4_NewRuralVilla.jpg" />
-              <button type="button" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px;"><b class="intB">New Rural Villa</b></button>
+              <button type="button" onclick="newBt()" class="btn btn-lg btn-outline-secondary bt btw" style="width:85%; padding: 12px 0px;"><b class="intB">New Rural Villa</b></button>
             </th>
           <tr>
             <th class="comp">
@@ -98,7 +98,202 @@
         <div class="blackBar" style="background-color: white; height:150px">
         </div>
       </div>
-    </div>
+      <div id="tinyHouse">
+        <div class="tinyNav">
+          <table style="width:100%;">
+            <tr>
+              <th class="comp">
+                <div class="textNav">
+                  <a type="button" href="index.html">
+                    <h6>Xianhu Ye ></h6>
+                  </a>
+                  <a type="button" href="interiordesign.html">
+                    <h6>Interior Design ></h6>
+                  </a>
+                  <a>ID 440 Tiny House</a>
+                </div>
+              </th>
+              <th class="comp" style="text-align: right;">
+                <div class="imgNav">
+                  <div class="sImg" style="border:1px solid black;">
+                    <img onclick="tinyBt()" src="1_ID440TinyHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="codeBt()" src="2_ID345CodeLab.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="aNhBt()" src="3_ID242ApartmentandHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="newBt()" src="4_NewRuralVilla.jpg" style="width:80px;height:auto;" />
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div class="tinyImg">
+          <img class="interImg" src="tinyhouse/resize.jpg" style="border:1px solid white;" />
+          <img class="interImg" src="tinyhouse/resize2.jpg" />
+          <img class="interImg" src="tinyhouse/resize3.jpg" />
+          <img class="interImg" src="tinyhouse/resize4.jpg" />
+          <img class="interImg" src="tinyhouse/resize5.jpg" />
+          <img class="interImg" src="tinyhouse/resize6.jpg" />
+          <img class="interImg" src="tinyhouse/resize7.jpg" />
+          <img class="interImg" src="tinyhouse/resize8.jpg" />
+          <img class="interImg" src="tinyhouse/resize9.jpg" />
+          <img class="interImg" src="tinyhouse/resize10.jpg" />
+          <div class="blackBar" style="background-color: white; height:150px">
+          </div>
+        </div>
+      </div>
+      <div id="codesLab">
+        <div class="tinyNav">
+          <table style="width:100%;">
+            <tr>
+              <th class="comp">
+                <div class="textNav">
+                  <a type="button" href="index.html">
+                    <h6>Xianhu Ye ></h6>
+                  </a>
+                  <a type="button" href="interiordesign.html">
+                    <h6>Interior Design ></h6>
+                  </a>
+                  <a>ID 345 Codes Lab</a>
+                </div>
+              </th>
+              <th class="comp" style="text-align: right;">
+                <div class="imgNav">
+                  <div class="sImg">
+                    <img onclick="tinyBt()" src="1_ID440TinyHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg" style="border:1px solid black;">
+                    <img onclick="codeBt()" src="2_ID345CodeLab.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="aNhBt()" src="3_ID242ApartmentandHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="newBt()" src="4_NewRuralVilla.jpg" style="width:80px;height:auto;" />
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div class="tinyImg">
+          <img class="interImg" src="codeslab/CodesLabReside.jpg">
+          <img class="interImg" src="codeslab/CodesLabReside2.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside3.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside4.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside5.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside6.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside7.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside8.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside9.jpg" />
+          <img class="interImg" src="codeslab/CodesLabReside10.jpg" />
+          <div class="blackBar" style="background-color: white; height:150px">
+          </div>
+        </div>
+      </div>
+      <div id="aNh">
+        <div class="tinyNav">
+          <table style="width:100%;">
+            <tr>
+              <th class="comp">
+                <div class="textNav">
+                  <a type="button" href="index.html">
+                    <h6>Xianhu Ye ></h6>
+                  </a>
+                  <a type="button" href="interiordesign.html">
+                    <h6>Interior Design ></h6>
+                  </a>
+                  <a>ID 242 House and Apartment</a>
+                </div>
+              </th>
+              <th class="comp" style="text-align: right;">
+                <div class="imgNav">
+                  <div class="sImg">
+                    <img onclick="tinyBt()" src="1_ID440TinyHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="codeBt()" src="2_ID345CodeLab.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg" style="border:1px solid black;">
+                    <img onclick="aNhBt()" src="3_ID242ApartmentandHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="newBt()" src="4_NewRuralVilla.jpg" style="width:80px;height:auto;" />
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div class="tinyImg" style="text-align: center;">
+          <h2 style="padding-top:100px; padding-bottom:20px">House</h2>
+          <img class="interImg" src="anh/House/HouseReside.jpg">
+          <img class="interImg" src="anh/House/HouseReside2.jpg" />
+          <img class="interImg" src="anh/House/HouseReside3.jpg" />
+          <img class="interImg" src="anh/House/HouseReside4.jpg" />
+          <img class="interImg" src="anh/House/HouseReside5.jpg" />
+          <h2 style="padding-top:100px; padding-bottom:20px">Apartment</h2>
+          <img class="interImg" src="anh/Apartment/ApartmentReside.jpg" />
+          <img class="interImg" src="anh/Apartment/ApartmentReside2.jpg" />
+          <img class="interImg" src="anh/Apartment/ApartmentReside3.jpg" />
+          <div class="blackBar" style="background-color: white; height:150px">
+          </div>
+        </div>
+      </div>
+      <div id="new">
+        <div class="tinyNav">
+          <table style="width:100%;">
+            <tr>
+              <th class="comp">
+                <div class="textNav">
+                  <a type="button" href="index.html">
+                    <h6>Xianhu Ye ></h6>
+                  </a>
+                  <a type="button" href="interiordesign.html">
+                    <h6>Interior Design ></h6>
+                  </a>
+                  <a>New Rural Villa</a>
+                </div>
+              </th>
+              <th class="comp" style="text-align: right;">
+                <div class="imgNav">
+                  <div class="sImg">
+                    <img onclick="tinyBt()" src="1_ID440TinyHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="codeBt()" src="2_ID345CodeLab.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg">
+                    <img onclick="aNhBt()" src="3_ID242ApartmentandHouse.jpg" style="width:80px;height:auto;" />
+                  </div>
+                  <div class="sImg" style="border:1px solid black;">
+                    <img onclick="newBt()" src="4_NewRuralVilla.jpg" style="width:80px;height:auto;" />
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div class="tinyImg">
+          <img class="interImg" src="new/JPG_Page_01.jpg" />
+          <img class="interImg" src="new/JPG_Page_02.jpg" />
+          <img class="interImg" src="new/JPG_Page_03.jpg" />
+          <img class="interImg" src="new/JPG_Page_04.jpg" />
+          <img class="interImg" src="new/JPG_Page_05.jpg" />
+          <img class="interImg" src="new/JPG_Page_06.jpg" />
+          <img class="interImg" src="new/JPG_Page_07.jpg" />
+          <img class="interImg" src="new/JPG_Page_08.jpg" />
+          <img class="interImg" src="new/JPG_Page_09.jpg" />
+          <img class="interImg" src="new/JPG_Page_10.jpg" />
+          <div class="blackBar" style="background-color: white; height:150px">
+          </div>
+        </div>
+      </div>
   </section>
   <script src="function.js"></script>
 </body>
