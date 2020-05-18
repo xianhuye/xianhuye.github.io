@@ -227,3 +227,17 @@ footer{
   margin-left:50px;
   margin-right:50px;
 }
+
+.photoR{
+  margin-top:6%;
+}
+.desText p{
+  color:#a3a5a4;
+  line-height: 120%;
+  margin-bottom:0;
+  font-weight: normal;
+}
+
+.desText :hover{
+  color:black;
+}
