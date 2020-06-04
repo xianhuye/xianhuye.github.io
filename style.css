@@ -241,3 +241,42 @@ footer{
 .desText :hover{
   color:black;
 }
+.navFilter p{
+  color:#a3a5a4;
+}
+
+#nikonP{
+  display:none;
+}
+#beijing,#wwh,#tokyo,#thailand,#photo51,#daily{
+  display:none;
+}
+#chengduT{
+  color:black;
+}
+.gallery img{
+
+  width:250px;
+  height:250px;
+  object-fit: cover;
+  padding:5px;
+}
+#phonesP{
+  display:none;
+}
+#iphoneT{
+  color:black;
+}
+#samsung{
+  display:none;
+}
+
+#goproP{
+  display:none;
+}
+#photoT{
+  color:black;
+}
+#video{
+  display:none;
+}
